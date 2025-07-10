@@ -83,6 +83,7 @@ background-color: #4E47FF;
 padding:10px 30px;
 border-radius:8px;
 margin-top: 30px;
+color:white;
 }
 .img{
    width:400px;
@@ -92,4 +93,38 @@ margin-top: 30px;
      margin-top: 100px;
 margin-right: 100px;
  
+}
+.third{
+    margin:auto;
+    padding:50px 142px;
+     border-radius:15px;
+    margin-top: 200px;
+    width:1240px;
+    height:306px;
+    background-color:rgb(216, 228, 244);
+}
+.third-container{
+    width:600px;
+    height:206px;
+   
+}
+.about-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.title{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+}
+.third h2{
+    margin-top: 80px;
+  margin-left:190px;
+    color:#252432;
+    font-size:38px;
+}
+.description{
+    color:#000000;
+    font-size:20px;
 }
