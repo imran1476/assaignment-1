@@ -31,6 +31,7 @@ nav h1{
   background-color: #4E47FF;
   font-size:16px;
   border-radius:8px;
+  cursor:pointer;
     
 }
 .btm:hover{
@@ -56,9 +57,11 @@ margin-top: 220px;
     background-color: #4E47FF;
     color:white;
     font-size:16px;
+    cursor:pointer;
 }
 .btm2:hover{
-    background-color:#726bff;
+    background-color:lightgreen;
+  
 }
 .hero2{
 margin:auto;
@@ -66,7 +69,7 @@ margin-top: 100px;
     max-width: 1440px;
     height:328px;
     display: flex;
-    
+  
     justify-content: space-between;
 }
 .hero2 h3{
@@ -100,7 +103,6 @@ color:white;
    width:400px;
    height:328px;
    
-  
 margin-right: 100px;
  
 }
