@@ -20,6 +20,7 @@ nav{
 nav h1{
     margin-top: 40px;
     font-size:34px;
+    font-weight:bold;
     color:#4E47FF;
 }
 .btm{
@@ -31,6 +32,9 @@ nav h1{
   font-size:16px;
   border-radius:8px;
     
+}
+.btm:hover{
+    background-color:#726bff;
 }
 div h2{
     font-size: 65px;
@@ -52,6 +56,9 @@ margin-top: 220px;
     background-color: #4E47FF;
     color:white;
     font-size:16px;
+}
+.btm2:hover{
+    background-color:#726bff;
 }
 .hero2{
 margin:auto;
@@ -86,10 +93,14 @@ border-radius:8px;
 margin-top: 30px;
 color:white;
 }
-.img{
+.btm3:hover{
+    background-color: blueviolet;
+}
+.imag{
    width:400px;
    height:328px;
-   border:5px red; 
+   
+  
 margin-right: 100px;
  
 }
@@ -223,7 +234,7 @@ margin-right: 100px;
 
 
      .header {
-      background-color: white;
+      background-color:#f7f7f7;
       text-align: center;
       padding: 60px 20px;
       border-radius: 10px;
@@ -232,12 +243,14 @@ margin-right: 100px;
     }
 
     .header h1 {
-      font-size: 32px;
+      font-size: 50px;
       margin-bottom: 10px;
     }
 
     .header p {
       color: gray;
+      font-size:20px;
+      margin-top:20px;
       margin-bottom: 30px;
     }
 
@@ -250,11 +263,14 @@ margin-right: 100px;
       font-size: 16px;
       cursor: pointer;
     }
+     .header button:hover{
+        background-color: indigo;
+     }
 
     .header img {
       width: 100%;
       max-width: 800px;
-      border-radius: 24px;
+      border-radius: 48px;
       margin-top: 30px;
     }
 
@@ -275,8 +291,9 @@ margin-right: 100px;
     }
 
     .contact .text h2 {
-      font-size: 40px;
+      font-size: 80px;
       margin: 0 0 10px;
+      
     }
 
     .contact-form {
@@ -288,23 +305,30 @@ margin-right: 100px;
 
     .contact-form input,
     .contact-form textarea {
-      padding: 12px;
-      font-size: 16px;
+      padding: 25px;
+      font-size: 18px;
       border: 1px solid #ccc;
       border-radius: 8px;
       width: 100%;
+      background-color:white;
       box-sizing: border-box;
     }
-
+.contact-form label{
+    font-size:20px;
+    color:#1e1e1e;
+}
     .contact-form button {
       background-color: #4f46e5;
       color: white;
       border: none;
-      padding: 12px;
+      padding: 18px;
       font-size: 16px;
       border-radius: 8px;
       cursor: pointer;
     }
+      .contact-form button:hover{
+        background-color:green;
+      }
 
       footer {
       background-color: #ffffff;
@@ -315,7 +339,7 @@ margin-right: 100px;
     }
 
     .footer-logo {
-      font-size: 48px;
+      font-size: 100px;
       font-weight: bold;
       color: #4f46e5;
       margin-bottom: 20px;
@@ -324,7 +348,7 @@ margin-right: 100px;
     .footer-description {
       max-width: 600px;
       margin: 0 auto 30px;
-      font-size: 14px;
+      font-size: 18px;
       line-height: 1.6;
       color: #777;
     }
@@ -339,10 +363,10 @@ margin-right: 100px;
     .footer-nav a {
       text-decoration: none;
       color: #777;
-      font-size: 14px;
+      font-size: 18px;
       transition: color 0.3s;
     }
 
     .footer-nav a:hover {
-      color: #4f46e5;
+      color:greenyellow;
     }
